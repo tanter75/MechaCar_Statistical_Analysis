@@ -4,16 +4,18 @@
 The purpose of this study to to use RStudio to run statistical analysis to see the impact of vehicle weight, vehicle length, spoiler angle, AWD and ground clearance on fuel efficiency as determined by miles per gallon (MPG).
 
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-This linear regression looked at the impact of vehicle weight, vehicle length, spoiler angle, AWD and ground clearance.  The two factors that provided a non-random amount of variance to the dataset are ground clearance and vehicle length
+This linear regression looked at the impact of vehicle weight, vehicle length, spoiler angle, AWD and ground clearance.  The two factors that provided a non-random amount of variance to the dataset are ground clearance and vehicle length.  Since the P values o vehicle weight, spoiler angle and AWD were all less than 0.05, it is determined that they did not provide a significant amount on non-random variance to MPG values in the dataset.
 
 ![LinearRegression_MPG](https://user-images.githubusercontent.com/86161212/136058671-ec914638-2e10-4c04-9fa1-372bb3bc7f18.png)
 
 
+### Is the slope of the linear model considered to be zero? Why or why not?
+The slope of the linear model is not considered to be zero as the linear model results are greater than 0.
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+![LM_MPG](https://user-images.githubusercontent.com/86161212/136080728-803703a4-9eee-48e2-b9dc-be5a4fd3b6b9.PNG)
 
+### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+The R-squared value of the linear model is 71.49%, which means that 71.49% the linear model will accurately predict the mpg for MechaCar prototypes.  Conversely 28.51% of the linear model will not accurately predict the mpg of the MechaCar prototypes.  In other words, the linear model will be incorrect more than 1 in every 4 times, which is not an acceptable level of reliability.  Therefore the linear model is not effective in predicting mpg for the MechaCar prototypes.
 
 ## Summary Statistics on Suspension Coils, and write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
 
