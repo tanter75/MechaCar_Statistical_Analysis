@@ -19,10 +19,10 @@ The R-squared value of the linear model is 71.49%, which means that 71.49% the l
 
 ![ground_clearance_to_mpg](https://user-images.githubusercontent.com/86161212/136434620-4d866b07-b75d-45bc-b88a-43883a7eaf4a.png)
 ![Length_to_mpg](https://user-images.githubusercontent.com/86161212/136434635-549434d5-1f27-4b54-bfda-f475627b0a7e.png)
-![LinearRegression_MPG](https://user-images.githubusercontent.com/86161212/136434646-b613ad1b-acec-4463-bc03-d6f58bcc9463.png)
-![vehicle_weight_to_mpg](https://user-images.githubusercontent.com/86161212/136434674-1562907e-e83a-4842-8135-b88d61637243.png)
-
 ![LM_MPG](https://user-images.githubusercontent.com/86161212/136434657-7b2a032d-44ee-486b-809b-e1c931102705.PNG)
+![vehicle_weight_to_mpg](https://user-images.githubusercontent.com/86161212/136434674-1562907e-e83a-4842-8135-b88d61637243.png)
+![LinearRegression_MPG](https://user-images.githubusercontent.com/86161212/136434646-b613ad1b-acec-4463-bc03-d6f58bcc9463.png)
+
 
 
 ## Summary Statistics on Suspension Coils
