@@ -16,8 +16,13 @@ The slope of the linear model is not considered to be zero as the linear model r
 
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 The R-squared value of the linear model is 71.49%, which means that 71.49% the linear model will accurately predict the mpg for MechaCar prototypes.  Conversely 28.51% of the linear model will not accurately predict the mpg of the MechaCar prototypes.  In other words, the linear model will be incorrect more than 1 in every 4 times, which is not an acceptable level of reliability.  Therefore the linear model is not effective in predicting mpg for the MechaCar prototypes.
+![ground_clearance_to_mpg](https://user-images.githubusercontent.com/86161212/136434620-4d866b07-b75d-45bc-b88a-43883a7eaf4a.png)
 
+![Length_to_mpg](https://user-images.githubusercontent.com/86161212/136434635-549434d5-1f27-4b54-bfda-f475627b0a7e.png)
+![LinearRegression_MPG](https://user-images.githubusercontent.com/86161212/136434646-b613ad1b-acec-4463-bc03-d6f58bcc9463.png)
+![vehicle_weight_to_mpg](https://user-images.githubusercontent.com/86161212/136434674-1562907e-e83a-4842-8135-b88d61637243.png)
 
+![LM_MPG](https://user-images.githubusercontent.com/86161212/136434657-7b2a032d-44ee-486b-809b-e1c931102705.PNG)
 
 
 ## Summary Statistics on Suspension Coils
@@ -27,15 +32,13 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 
 ## T-Tests on Suspension Coils
+![t_tests](https://user-images.githubusercontent.com/86161212/136434692-7b18fc52-77fa-43f6-9438-41c03ad2631f.PNG)
 
 then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
 
 ![t_tests](https://user-images.githubusercontent.com/86161212/136434469-abd9ca8c-0564-48bc-a992-e4a5d0dfc2da.PNG)
-![Lot1_t-test](https://user-images.githubusercontent.com/86161212/136434378-0d1075ac-f57f-4ec3-bf85-b5242bc9e914.PNG)
-![Lot2_t-test](https://user-images.githubusercontent.com/86161212/136434387-27532751-ecbf-42ef-b45e-5f75a3bc4225.PNG)
-![Lot3_t-test](https://user-images.githubusercontent.com/86161212/136434396-5ccd6820-45f8-4982-a5d0-ef288d387296.PNG)
-![Lots_t-test](https://user-images.githubusercontent.com/86161212/136434400-22dd2cc5-9061-40cd-b955-7b46636582cb.PNG)
+
 
 ## Study Design: MechaCar vs Competition.
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
