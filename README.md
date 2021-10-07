@@ -17,6 +17,8 @@ The slope of the linear model is not considered to be zero as the linear model r
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 The R-squared value of the linear model is 71.49%, which means that 71.49% the linear model will accurately predict the mpg for MechaCar prototypes.  Conversely 28.51% of the linear model will not accurately predict the mpg of the MechaCar prototypes.  In other words, the linear model will be incorrect more than 1 in every 4 times, which is not an acceptable level of reliability.  Therefore the linear model is not effective in predicting mpg for the MechaCar prototypes.
 
+When we look at the results in the scatter plots the variability of the results of all measures impact on mpg clearly demonstrates that the correlation of the results is not strong enough to predict the mpg of the MechaCar prototypes. 
+
 ![LM_MPG](https://user-images.githubusercontent.com/86161212/136434657-7b2a032d-44ee-486b-809b-e1c931102705.PNG)
 ![vehicle_weight_to_mpg](https://user-images.githubusercontent.com/86161212/136434674-1562907e-e83a-4842-8135-b88d61637243.png)
 ![spoiler_angle_to_mpg](https://user-images.githubusercontent.com/86161212/136435665-46ef4494-9293-434f-8144-e1947b6260f9.png)
@@ -29,7 +31,15 @@ The R-squared value of the linear model is 71.49%, which means that 71.49% the l
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
+###
+For Lot1 and Lot2 the median result is 1500, the mean for Lot1 is 1500 and while the mean for Lot2 is 1500.20, which meet the design specification for the suspension coils.
 
+
+![Lot_Results](https://user-images.githubusercontent.com/86161212/136437616-604037e7-75e0-40d3-a720-c985bc7f9eb4.PNG)
+![Lot1_t-test](https://user-images.githubusercontent.com/86161212/136438121-4b4cef61-c567-4fce-9a84-57f083d01f71.PNG)
+![Lot2_t-test](https://user-images.githubusercontent.com/86161212/136438123-b3918cc5-fe8f-45fb-b62e-5ffeee36364d.PNG)
+![Lot3_t-test](https://user-images.githubusercontent.com/86161212/136438125-8e11ac16-e482-42e7-b037-1a328e066623.PNG)
+![Lots_t-test](https://user-images.githubusercontent.com/86161212/136438180-3aeb5d4b-5bb7-415a-ba3b-4c00e43a82a7.PNG)
 
 ## T-Tests on Suspension Coils
 
